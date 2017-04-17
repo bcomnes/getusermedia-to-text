@@ -10,7 +10,8 @@ npm install getusermedia-to-text
 # Usage
 
 ```js
-var s2t = new SpeechToText({
+var GetUserMediaToSpeech = require('getusermedia-to-text')
+var s2t = new GetUserMediaToSpeech({
   projectId: 'your-project-id',
   keyFilename: path.join(__dirname, 'auth.json')
   // request: { options }
@@ -29,7 +30,7 @@ s2t.stop()
 
 # API
 
-#### `var s2t = new SpeechToText(options)`
+#### `var s2t = new GetUserMediaToSpeech(options)`
 
 Create a new speech to text instance.
 
