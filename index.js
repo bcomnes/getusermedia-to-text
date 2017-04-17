@@ -53,7 +53,7 @@ function GetUserMediaToText (opts) {
 
 GetUserMediaToText.prototype = Object.create(EventEmitter.prototype)
 
-GetUserMediaToText.prototype.listen = function () {
+GetUserMediaToText.prototype.start = function () {
   var self = this
   if (this.listening) return this.emit('status', 'Already Listening')
 
@@ -62,7 +62,7 @@ GetUserMediaToText.prototype.listen = function () {
     this.waiting = true
     return this.once('mediaStream', function () {
       self.waiting = false
-      self.listen()
+      self.start()
     })
   }
 

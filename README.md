@@ -24,7 +24,7 @@ s2t.on('listening', function (isListening) {
 })
 s2t.on('data', console.log)
 
-s2t.listening()
+s2t.start()
 s2t.stop()
 ```
 

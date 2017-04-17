@@ -5,7 +5,7 @@ var SpeechToText = require('../')
 var path = require('path')
 var log = require('choo-log')
 var s2t = new SpeechToText({
-  projectId: 'dexter-dev-env',
+  projectId: 'getusermedia-to-text',
   keyFilename: path.join(__dirname, 'auth.json')
 })
 
@@ -47,7 +47,7 @@ function store (state, bus) {
 
   bus.on('listen', listen)
   function listen () {
-    s2t.listen()
+    s2t.start()
   }
 
   bus.on('stop', stop)
