@@ -86,7 +86,6 @@ GetUserMediaToText.prototype.start = function () {
   this.emit('status', 'Started listening')
   this.pipeline = pump(this.audioStream, this.sinkStream, function (err) {
     if (err) self.emit('error', err)
-    console.log('this called')
     self.clearPipeline()
   })
 }

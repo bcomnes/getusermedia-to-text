@@ -21,7 +21,10 @@ function store (state, bus) {
   state.msgs = []
   state.listening = false
 
-  s2t.on('error', log)
+  s2t.on('error', logError)
+  function logError (error) {
+    state.msgs.push(error.message)
+  }
   s2t.on('status', log)
   function log (data) {
     state.msgs.push(data)

@@ -28,6 +28,17 @@ s2t.start()
 s2t.stop()
 ```
 
+To run the example:
+
+```
+npm install
+npm start
+```
+
+You are required to set up your own service account since the speech recognition API requires an account with billing. See:
+
+https://cloud.google.com/speech/docs/common/auth
+
 # API
 
 #### `var s2t = new GetUserMediaToSpeech(options)`

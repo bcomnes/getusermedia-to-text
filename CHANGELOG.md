@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.2 - 2017-04-17
+* Update docs.
+* Remove console.log where it wasn't needed.
+* Update example slightly.
+* Removed all hope of shipping an API key.
+
 ## 1.0.1 - 2017-04-17
 * Change `.listen()` to `.start()`.
 
