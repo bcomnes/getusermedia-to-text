@@ -10,8 +10,8 @@ npm install getusermedia-to-text
 # Usage
 
 ```js
-var GetUserMediaToSpeech = require('getusermedia-to-text')
-var s2t = new GetUserMediaToSpeech({
+var GetUserMediaToText = require('getusermedia-to-text')
+var s2t = new GetUserMediaToText({
   projectId: 'your-project-id',
   keyFilename: path.join(__dirname, 'auth.json')
   // request: { options }
@@ -41,7 +41,7 @@ https://cloud.google.com/speech/docs/common/auth
 
 # API
 
-#### `var s2t = new GetUserMediaToSpeech(options)`
+#### `var s2t = new GetUserMediaToText(options)`
 
 Create a new speech to text instance.
 
