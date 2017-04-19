@@ -29,7 +29,9 @@ s2t.start()
 s2t.stop()
 ```
 
-To run the example:
+Unfortunately google's speech API module depends on [grpc](https://github.com/grpc/grpc) which is a native module.  Native modules don't work in the browser so this probably only works for [electron](https://electron.atom.io) after you run [electron-rebuild](https://github.com/electron/electron-rebuild).
+
+*To run the example:*
 
 ```
 npm install
