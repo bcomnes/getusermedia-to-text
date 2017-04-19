@@ -1,6 +1,6 @@
 {
   "name": "getusermedia-to-text",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "getUserMedia to Text via Google's Speech to Text API",
   "main": "index.js",
   "scripts": {
