@@ -3,7 +3,7 @@
 getUserMedia to Text via Google's Speech to Text API.
 
 ```
-npm install getusermedia-to-text
+npm install getusermedia-to-text --save
 ```
 
 
@@ -11,6 +11,7 @@ npm install getusermedia-to-text
 
 ```js
 var GetUserMediaToText = require('getusermedia-to-text')
+var path = require('path')
 var s2t = new GetUserMediaToText({
   projectId: 'your-project-id',
   keyFilename: path.join(__dirname, 'auth.json')
@@ -38,6 +39,8 @@ npm start
 You are required to set up your own service account since the speech recognition API requires an account with billing. See:
 
 https://cloud.google.com/speech/docs/common/auth
+
+The example code expects to find your service account credentials at `./example/auth.json`.
 
 # API
 
