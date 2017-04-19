@@ -28,7 +28,7 @@
   "dependencies": {
     "@google-cloud/speech": "^0.9.1",
     "assert": "^1.4.1",
-    "audio-stream": "^0.1.1",
+    "audio-stream": "^0.2.0",
     "flush-write-stream": "^1.0.2",
     "getusermedia": "^2.0.1",
     "pcm-stream": "^1.0.0",
@@ -40,7 +40,7 @@
     "choo": "^5.1.5",
     "choo-log": "^6.1.1",
     "dependency-check": "^2.8.0",
-    "electron": "~1.6.2",
+    "electron": "^1.6.5",
     "electron-rebuild": "^1.5.7",
     "global": "^4.3.1",
     "npm-run-all": "^4.0.2",

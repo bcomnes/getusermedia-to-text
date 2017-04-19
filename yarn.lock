@@ -254,9 +254,9 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
-audio-stream@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/audio-stream/-/audio-stream-0.1.1.tgz#9e899be7bdf6e71901efae6e253a5124f926710a"
+audio-stream@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/audio-stream/-/audio-stream-0.2.0.tgz#d324c29ee32ba93a004d5a88bbe881d145465d0c"
   dependencies:
     debug "^2.2.0"
     once "^1.3.2"
@@ -846,9 +846,9 @@ electron-rebuild@^1.5.7:
     spawn-rx "^2.0.7"
     yargs "^3.31.0"
 
-electron@~1.6.2:
-  version "1.6.6"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-1.6.6.tgz#17df8cdf73ec2c04cfad7abb413579b8b8dafc28"
+electron@^1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.6.5.tgz#6408d738025bc34f7c0ce8ee8827539475680a99"
   dependencies:
     electron-download "^3.0.1"
     extract-zip "^1.0.3"

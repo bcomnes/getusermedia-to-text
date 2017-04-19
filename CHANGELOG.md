@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.4 - 2017-04-18
+
+* More minor README updates.
+* Update deps
+
 ## 1.0.3 - 2017-04-18
 
 * Fix typo in README
