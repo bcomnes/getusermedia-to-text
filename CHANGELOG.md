@@ -2,9 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## 1.0.5
 
 * Note electron, grpc and native dependency rebuilding in README.
+* Default to `verbose: true`
 
 ## 1.0.4 - 2017-04-18
 

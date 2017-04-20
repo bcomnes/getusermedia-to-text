@@ -64,8 +64,8 @@ Options include:
     languageCode: 'en-US'
   },
   singleUtterance: false,
-  interimResults: false
-  // verbose: true
+  interimResults: false,
+  verbose: true
 }
 ```
 
