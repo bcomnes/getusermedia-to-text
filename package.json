@@ -29,7 +29,7 @@
     "@google-cloud/speech": "^0.9.1",
     "assert": "^1.4.1",
     "audio-stream": "^0.2.0",
-    "flush-write-stream": "^1.0.2",
+    "flush-write-stream": "^2.0.0",
     "getusermedia": "^2.0.1",
     "pcm-stream": "^1.0.0",
     "pump": "^1.0.2",
