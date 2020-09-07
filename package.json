@@ -27,7 +27,7 @@
   "homepage": "https://github.com/bcomnes/getusermedia-to-text#readme",
   "dependencies": {
     "@google-cloud/speech": "^0.9.1",
-    "assert": "^1.4.1",
+    "assert": "^2.0.0",
     "audio-stream": "^0.2.0",
     "flush-write-stream": "^2.0.0",
     "getusermedia": "^2.0.1",
