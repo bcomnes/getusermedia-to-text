@@ -47,5 +47,9 @@
     "snazzy": "^7.0.0",
     "standard": "^10.0.2",
     "tape": "^4.6.3"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/bcomnes"
   }
 }
