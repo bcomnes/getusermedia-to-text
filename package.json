@@ -44,7 +44,7 @@
     "electron-rebuild": "^1.5.7",
     "global": "^4.3.1",
     "npm-run-all": "^4.0.2",
-    "snazzy": "^7.0.0",
+    "snazzy": "^8.0.0",
     "standard": "^10.0.2",
     "tape": "^4.6.3"
   },
