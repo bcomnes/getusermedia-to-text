@@ -32,7 +32,7 @@
     "flush-write-stream": "^2.0.0",
     "getusermedia": "^2.0.1",
     "pcm-stream": "^1.0.0",
-    "pump": "^1.0.2",
+    "pump": "^3.0.0",
     "pumpify": "^2.0.1"
   },
   "devDependencies": {
