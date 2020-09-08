@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
-    "choo": "^5.1.5",
+    "choo": "^7.1.0",
     "choo-log": "^6.1.1",
     "dependency-check": "^4.1.0",
     "electron": "^1.6.5",
